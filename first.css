@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #766161;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .tracker {
+    background: rgb(150, 147, 147);
+    padding: 20px;
+    border-radius: 7.5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 900px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .summary div {
+    text-align: left;
+  }
+  
+  p {
+    font-size: 25px;
+  }
+
+  h2 {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* background-color: #645962; */
+   
+    
+  }
+
+  input[placeholder="Enter amount"]{
+    text-align: center;
+    color: #0d0f0f;
+    cursor: pointer;
+
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+   
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #depositButton {
+    background-color: #6c2b5c;
+    color: white;
+  }
+  
+  #withdrawButton {
+    background-color: #6c36f4;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
